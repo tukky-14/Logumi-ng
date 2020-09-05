@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Logumi-ng"
+    }
+  },
+  "defaultProject": "Logumi-ng",
+  "cli": {
+    "analytics": "71ab4078-500e-48dd-8be9-388cab0b0137"
+  }
 }
