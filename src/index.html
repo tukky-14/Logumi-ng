@@ -1,133 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <title>LogumiNg</title>
-  <style>
-        /*
-    html5doctor.com Reset Stylesheet
-    v1.6.1
-    Last Updated: 2010-09-17
-    Author: Richard Clark - http://richclarkdesign.com
-    Twitter: @rich_clark
-    */
+  <head>
+    <meta charset="utf-8" />
+    <title>LogumiNg</title>
+    <!-- リセットCSS -->
+    <style>
+          /*
+      html5doctor.com Reset Stylesheet
+      v1.6.1
+      Last Updated: 2010-09-17
+      Author: Richard Clark - http://richclarkdesign.com
+      Twitter: @rich_clark
+      */
 
-    html, body, div, span, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    abbr, address, cite, code,
-    del, dfn, em, img, ins, kbd, q, samp,
-    small, strong, sub, sup, var,
-    b, i,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section, summary,
-    time, mark, audio, video {
-        margin:0;
-        padding:0;
-        border:0;
-        outline:0;
-        font-size:100%;
-        vertical-align:baseline;
-        background:transparent;
-    }
+      html, body, div, span, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      abbr, address, cite, code,
+      del, dfn, em, img, ins, kbd, q, samp,
+      small, strong, sub, sup, var,
+      b, i,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section, summary,
+      time, mark, audio, video {
+          margin:0;
+          padding:0;
+          border:0;
+          outline:0;
+          font-size:100%;
+          vertical-align:baseline;
+          background:transparent;
+      }
 
-    body {
-        line-height:1;
-    }
+      body {
+          line-height:1;
+      }
 
-    article,aside,details,figcaption,figure,
-    footer,header,hgroup,menu,nav,section {
-        display:block;
-    }
+      article,aside,details,figcaption,figure,
+      footer,header,hgroup,menu,nav,section {
+          display:block;
+      }
 
-    nav ul {
-        list-style:none;
-    }
+      nav ul {
+          list-style:none;
+      }
 
-    blockquote, q {
-        quotes:none;
-    }
+      blockquote, q {
+          quotes:none;
+      }
 
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-        content:'';
-        content:none;
-    }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+          content:'';
+          content:none;
+      }
 
-    a {
-        margin:0;
-        padding:0;
-        font-size:100%;
-        vertical-align:baseline;
-        background:transparent;
-    }
+      a {
+          margin:0;
+          padding:0;
+          font-size:100%;
+          vertical-align:baseline;
+          background:transparent;
+      }
 
-    /* change colours to suit your needs */
-    ins {
-        background-color:#ff9;
-        color:#000;
-        text-decoration:none;
-    }
+      /* change colours to suit your needs */
+      ins {
+          background-color:#ff9;
+          color:#000;
+          text-decoration:none;
+      }
 
-    /* change colours to suit your needs */
-    mark {
-        background-color:#ff9;
-        color:#000;
-        font-style:italic;
-        font-weight:bold;
-    }
+      /* change colours to suit your needs */
+      mark {
+          background-color:#ff9;
+          color:#000;
+          font-style:italic;
+          font-weight:bold;
+      }
 
-    del {
-        text-decoration: line-through;
-    }
+      del {
+          text-decoration: line-through;
+      }
 
-    abbr[title], dfn[title] {
-        border-bottom:1px dotted;
-        cursor:help;
-    }
+      abbr[title], dfn[title] {
+          border-bottom:1px dotted;
+          cursor:help;
+      }
 
-    table {
-        border-collapse:collapse;
-        border-spacing:0;
-    }
+      table {
+          border-collapse:collapse;
+          border-spacing:0;
+      }
 
-    /* change border colour to suit your needs */
-    hr {
-        display:block;
-        height:1px;
-        border:0;  
-        border-top:1px solid #cccccc;
-        margin:1em 0;
-        padding:0;
-    }
+      /* change border colour to suit your needs */
+      hr {
+          display:block;
+          height:1px;
+          border:0;
+          border-top:1px solid #cccccc;
+          margin:1em 0;
+          padding:0;
+      }
 
-    input, select {
-        vertical-align:middle;
-    }
-  </style>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <header>
-    <div class="header">
-      <h1 class="header__title">Logumi</h1>
-        <ul class="header__list">
-          <li class="header__list__select">マイページ</li>
-          <li class="header__list__select">投稿する</li>
-          <li class="header__list__logout">
-          <i class="fas fa-sign-out-alt"></i>
-          </li>
+      input, select {
+          vertical-align:middle;
+      }ï
+    </style>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="header__title">Logumi</h1>
         <ul class="header__list">
           <li class="header__list__select">ログイン</li>
           <li class="header__list__select">新規登録</li>
         </ul>
-    </div>
-  </header>
-  <app-root></app-root>
-</body>
+      </div>
+    </header>
+    <app-root></app-root>
+    <footer>
+      <div class="menu">
+        <ul class="menu__list">
+          <li><a href="#" class="menu__list__info">HOME</a>｜　</li>
+          <li><a href="#" class="menu__list__info">ABOUT</a>｜　</li>
+          <li><a href="#" class="menu__list__info">NEWS</a>｜　</li>
+          <li><a href="#" class="menu__list__info">LINK</a></li>
+        </ul>
+        <small>&copy; 2020 tukky-14</small>
+      </div>
+    </footer>
+  </body>
 </html>

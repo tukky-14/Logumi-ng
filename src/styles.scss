@@ -9,7 +9,7 @@ $main-text-color: #494949;
 
 body {
   font-family: 'ヒラギノ丸ゴ ProN','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
-  // background-image: image-url("gumiback.png");
+  // background-image: image-url("assets/img/gumiback.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -41,6 +41,7 @@ a {
   }
 }
 
+// ヘッダー
 // ーーーーーーーーーーーーーーーーーーーー
 
 header {
@@ -97,4 +98,35 @@ header {
       }
     }
   }
+}
+
+// フッター
+// ーーーーーーーーーーーーーーーーーーーー
+footer {
+  width: 100%;
+  height:60px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.menu {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top:16px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    &__info {
+      color: blue;
+      margin-right: 12px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+small {
+  display: block;
+  margin-top: 8px;
 }
