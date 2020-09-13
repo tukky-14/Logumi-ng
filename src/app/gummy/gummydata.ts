@@ -7,7 +7,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 52,
     cost: 93,
     maker: "明治",
-    review: "おいしい！",
+    review: "ゴチです！",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 0,
     cost: 70,
     maker: "不二家",
-    review: "おいしい！",
+    review: "子供に大人気です！",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 38,
     cost: 115,
     maker: "ノーベル",
-    review: "おいしい！",
+    review: "酸っぱくておいしい！",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 72,
     cost: 180,
     maker: "ロッテ",
-    review: "おいしい！",
+    review: "あのオランジーナのグミだから美味しい！",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 51,
     cost: 93,
     maker: "明治",
-    review: "おいしい！",
+    review: "定番で王道でハズレなし。",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 72,
     cost: 184,
     maker: "カンロ",
-    review: "おいしい！",
+    review: "このかたさ、クセになります。",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 100,
     cost: 247,
     maker: "明治",
-    review: "おいしい！",
+    review: "コーラ好きにはたまりません。",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 85,
     cost: 138,
     maker: "UHA味覚糖",
-    review: "おいしい！",
+    review: "安くてたくさん入っています。",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 40,
     cost: 130,
     maker: "やわらかい",
-    review: "おいしい！",
+    review: "このグミを置いていない薬局はないと言っても過言ではない。",
   },
   {
     id: 10,
@@ -88,7 +88,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 0,
     cost: 108,
     maker: "UHA味覚糖",
-    review: "おいしい！",
+    review: "いつもとは違った食べ方をしたいあなたへ。",
   },
   {
     id: 11,
@@ -97,7 +97,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 80,
     cost: 100,
     maker: "ノーベル",
-    review: "おいしい！",
+    review: "かたくて美味しいです",
   },
   {
     id: 12,
@@ -106,7 +106,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 20,
     cost: 118,
     maker: "UHA味覚糖",
-    review: "おいしい！",
+    review: "強烈な酸っぱさがたまりません。",
   },
   {
     id: 13,
@@ -115,7 +115,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 51,
     cost: 100,
     maker: "カバヤ",
-    review: "おいしい！",
+    review: "シャカシャカしてます。",
   },
   {
     id: 14,
@@ -124,7 +124,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 25,
     cost: 204,
     maker: "ライオン",
-    review: "おいしい！",
+    review: "レモンそのまんま。",
   },
   {
     id: 15,
@@ -133,7 +133,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 100,
     cost: 171,
     maker: "カバヤ",
-    review: "おいしい！",
+    review: "そのかたさは他の追随を許しません。",
   },
   {
     id: 16,
@@ -142,7 +142,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 80,
     cost: 127,
     maker: "ノーベル",
-    review: "おいしい！",
+    review: "ちびくても一人前の美味しさ。",
   },
   {
     id: 17,
@@ -151,7 +151,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 85,
     cost: 148,
     maker: "春日井製菓",
-    review: "おいしい！",
+    review: "コスパは全グミの中でもトップレベル。",
   },
   {
     id: 18,
@@ -160,7 +160,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 44,
     cost: 120,
     maker: "ライオン",
-    review: "おいしい！",
+    review: "ナタデココが好きなら食べるべきです。",
   },
   {
     id: 19,
@@ -169,7 +169,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 20,
     cost: 108,
     maker: "UHA味覚糖",
-    review: "おいしい！",
+    review: "仕事が忙しいあなたへ。",
   },
   {
     id: 20,
@@ -178,7 +178,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 100,
     cost: 230,
     maker: "ハリボー",
-    review: "おいしい！",
+    review: "世界のグミ代表です。",
   },
   {
     id: 21,
@@ -187,7 +187,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 45,
     cost: 100,
     maker: "カバヤ",
-    review: "おいしい！",
+    review: "やわらかい食感が素敵です。",
   },
   {
     id: 22,
@@ -196,7 +196,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 56,
     cost: 157,
     maker: "カンロ",
-    review: "おいしい！",
+    review: "ざらつきとグミらしさが多くのファンを魅了します。",
   },
   {
     id: 23,
@@ -205,7 +205,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 50,
     cost: 108,
     maker: "ブルボン",
-    review: "おいしい！",
+    review: "細長い形が歯にフィットします（？）。",
   },
   {
     id: 24,
@@ -214,7 +214,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 38,
     cost: 120,
     maker: "UHA味覚糖",
-    review: "おいしい！",
+    review: "ぷっちょのグミだけ取り出してみました。",
   },
   {
     id: 25,
@@ -223,7 +223,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 22,
     cost: 30,
     maker: "共親",
-    review: "おいしい！",
+    review: "なつかしくておいしいです。",
   },
   {
     id: 26,
@@ -232,7 +232,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 50,
     cost: 130,
     maker: "ノーベル",
-    review: "おいしい！",
+    review: "ひらべったいだけでこんなにおいしいとは。",
   },
   {
     id: 27,
@@ -241,7 +241,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 53,
     cost: 117,
     maker: "明治",
-    review: "おいしい！",
+    review: "馴染みのある味です。",
   },
   {
     id: 28,
@@ -250,7 +250,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 195,
     cost: 100,
     maker: "UHA味覚糖",
-    review: "おいしい！",
+    review: "弾力がしっかりしています。",
   },
   {
     id: 29,
@@ -259,7 +259,7 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 22,
     cost: 60,
     maker: "明治",
-    review: "おいしい！",
+    review: "子供時代を思い出します。",
   },
   {
     id: 30,
@@ -268,6 +268,6 @@ export const GUMMYDATA: Gummy[] = [
     capacity: 0,
     cost: 51,
     maker: "明治",
-    review: "おいしい！",
+    review: "遊んで美味しいグミです。",
   },
 ]
