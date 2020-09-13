@@ -1,17 +1,11 @@
-.gummi-cards {
+.card {
   display: grid;
-  grid-template:
-    "1 2 3";
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
-.card1 {
-  grid-area: 1;
-}
-.card2 {
-  grid-area: 2;
-}
-.card3 {
-  grid-area: 3;
+
+.card_item {
+  height: 100%;
 }
 
 .card_title {
@@ -21,4 +15,20 @@
   display: block;
   width: 200px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 959px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
