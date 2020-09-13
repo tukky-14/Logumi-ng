@@ -3,8 +3,8 @@
     <mat-card *ngFor="let gummy of gummydata" class="card{{gummy.id}}">
       <a href="#">
       <li>
-          <mat-card-title>{{gummy.name}}</mat-card-title> 
-          <img mat-card-image src="./assets/img/">
+          <mat-card-title class="card_title">{{gummy.name}}</mat-card-title> 
+          <img mat-card-image src="../assets/img/gummy{{gummy.id}}.png" class="card_img">
         </li>
       </a> 
     </mat-card>

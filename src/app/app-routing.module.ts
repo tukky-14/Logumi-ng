@@ -7,9 +7,10 @@ const routes: Routes = [
   {
     path: '', 
     pathMatch: 'full',
-    component: ListComponent 
+    component: AboutComponent 
   },
-  { path: "about", component: AboutComponent }
+  { path: "about", component: AboutComponent },
+  { path: "list", component: ListComponent }
 ];
 
 @NgModule({

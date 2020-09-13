@@ -27,6 +27,12 @@ $main-text-color: #494949;
     list-style: inside;
     padding-left: 2rem;
   }
+  &__type {
+    color: $main-text-color;
+    list-style: inside;
+    list-style-type: decimal;
+    padding-left: 2rem;
+  }
 }
 
 .registration {
