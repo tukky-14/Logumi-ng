@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Gummy } from '../gummy/gummy'
+import { GummyService } from '../gummy.service';
 
 @Component({
   selector: 'app-list',
@@ -9,9 +10,10 @@ import { Gummy } from '../gummy/gummy'
 export class ListComponent implements OnInit {
   gummydata: Gummy[];
 
-  constructor() { }
+  constructor(private rsv: GummyService) { }
 
   ngOnInit(): void {
+    this.gummydata = this.rsv.getGummydata();
   }
 
 }

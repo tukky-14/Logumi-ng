@@ -1,6 +1,12 @@
-hello world
-<div>
-  <li *ngFor="let gummy of gummydata">
-    <a href="#">{{gummy.name}}</a> 
-  </li>
+<div class="wrapper">
+  <div class="gummi-cards">
+    <mat-card *ngFor="let gummy of gummydata" class="card{{gummy.id}}">
+      <a href="#">
+      <li>
+          <mat-card-title>{{gummy.name}}</mat-card-title> 
+          <img mat-card-image src="./assets/img/">
+        </li>
+      </a> 
+    </mat-card>
+  </div>
 </div>

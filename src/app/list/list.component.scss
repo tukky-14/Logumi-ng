@@ -1,0 +1,15 @@
+.gummi-cards {
+  display: grid;
+  grid-template:
+    "1 2 3";
+  gap: 10px;
+}
+.card1 {
+  grid-area: 1;
+}
+.card2 {
+  grid-area: 2;
+}
+.card3 {
+  grid-area: 3;
+}
