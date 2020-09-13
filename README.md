@@ -1,4 +1,6 @@
 # Logumi(Angular)
+- Heroku URL
+  https://logumi-ng.herokuapp.com/
 
 # バージョン
 - macOS：10.15.6
