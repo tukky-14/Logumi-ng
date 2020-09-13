@@ -13,4 +13,9 @@ export class GummyService {
   getGummydata():Gummy[]{
     return this.gummydata;
   }
+
+  getGummy(id:string):Gummy{
+    return this.gummydata.find(gummy=>gummy.id.toString()==id);
+  }
+
 }
