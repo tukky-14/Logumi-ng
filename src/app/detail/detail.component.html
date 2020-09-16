@@ -1,52 +1,50 @@
-<div class="wrapper">
-  <div class="show">
-    <img
-      src="../assets/img/gummy{{ gummy.id }}.png"
-      alt="グミの画像"
-      class="show__image"
-    />
+<div *ngIf="gummy" class="show">
+  <img
+    src="../assets/img/gummy{{ gummy.id }}.png"
+    alt="グミの画像"
+    class="show__image"
+  />
 
-    <div class="show__info">
-      <table class="show__info__table">
-        <tbody>
-          <tr>
-            <th class="show__info__table--head">商品名</th>
-            <td class="show__info__table--data">
-              {{ gummy.name }}
-            </td>
-          </tr>
-          <tr>
-            <th class="show__info__table--head">かたさ</th>
-            <td class="show__info__table--data">
-              {{ gummy.hardness }}
-            </td>
-          </tr>
-          <tr>
-            <th class="show__info__table--head">容量</th>
-            <td class="show__info__table--data">
-              {{ gummy.capacity }} g
-            </td>
-          </tr>
-          <tr>
-            <th class="show__info__table--head">価格（税込）</th>
-            <td class="show__info__table--data">
-              {{ gummy.cost }} 円
-            </td>
-          </tr>
-          <tr>
-            <th class="show__info__table--head">メーカー</th>
-            <td class="show__info__table--data">
-              {{ gummy.maker }}
-            </td>
-          </tr>
-          <tr>
-            <th class="show__info__table--head">レビュー</th>
-            <td class="show__info__table--review">
-              {{ gummy.review }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="show__info">
+    <table class="show__info__table">
+      <tbody>
+        <tr>
+          <th class="show__info__table--head">商品名</th>
+          <td class="show__info__table--data">
+            {{ gummy.name }}
+          </td>
+        </tr>
+        <tr>
+          <th class="show__info__table--head">かたさ</th>
+          <td class="show__info__table--data">
+            {{ gummy.hardness }}
+          </td>
+        </tr>
+        <tr>
+          <th class="show__info__table--head">容量</th>
+          <td class="show__info__table--data">
+            {{ gummy.capacity }} g
+          </td>
+        </tr>
+        <tr>
+          <th class="show__info__table--head">価格（税込）</th>
+          <td class="show__info__table--data">
+            {{ gummy.cost }} 円
+          </td>
+        </tr>
+        <tr>
+          <th class="show__info__table--head">メーカー</th>
+          <td class="show__info__table--data">
+            {{ gummy.maker }}
+          </td>
+        </tr>
+        <tr>
+          <th class="show__info__table--head">レビュー</th>
+          <td class="show__info__table--review">
+            {{ gummy.review }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
