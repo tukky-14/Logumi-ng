@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "logumi-ng"
+  },
+  "targets": {
+    "logumi-ng": {
+      "hosting": {
+        "Logumi-ng": [
+          "logumi-ng"
+        ]
+      }
+    }
+  }
+}

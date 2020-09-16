@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  firebase: {
+    apiKey: "AIzaSyCMUdcnJgo5Pbdih_HFtOaMPLyOXN-TItE",
+    authDomain: "logumi-ng.firebaseapp.com",
+    databaseURL: "https://logumi-ng.firebaseio.com",
+    projectId: "logumi-ng",
+    storageBucket: "logumi-ng.appspot.com",
+    messagingSenderId: "718714354768",
+    appId: "1:718714354768:web:cfd752f68d8df552016555",
+    measurementId: "G-9RF8B626TS"
+  }
 };
 
 /*
