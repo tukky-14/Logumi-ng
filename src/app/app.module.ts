@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatCardModule} from '@angular/material/card';
 import { DetailComponent } from './detail/detail.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   // そのモジュールの中で宣言されているディレクティブ（コンポーネント）とパイプを登録する
@@ -24,7 +25,8 @@ import { DetailComponent } from './detail/detail.component';
     FooterComponent,
     AboutComponent,
     ListComponent,
-    DetailComponent
+    DetailComponent,
+    ChatComponent
   ],
   // 自分のモジュールに別のモジュールを取り込む
   imports: [
