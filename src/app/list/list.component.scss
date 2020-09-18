@@ -1,21 +1,18 @@
+.mat-card {
+  text-align: center;
+}
 .card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
-}
-
-.mat-card {
-  text-align: center;
-}
-
-.card_item {
-  height: 100%;
-}
-
-.card_img {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
+  &__item {
+    height: 100%;
+  }
+  &__img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 959px) {

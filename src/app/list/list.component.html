@@ -2,9 +2,9 @@
   <div class="card">
     <mat-card *ngFor="let gummy of gummydata">
       <a routerLink="/detail/{{gummy.id}}">
-      <li class="card_item">
-          <mat-card-title class="card_title">{{gummy.name}}</mat-card-title> 
-          <img mat-card-image src="../assets/img/gummy{{gummy.id}}.png" class="card_img">
+      <li class="card__item">
+          <mat-card-title>{{gummy.name}}</mat-card-title> 
+          <img mat-card-image src="../assets/img/gummy{{gummy.id}}.png" class="card__img">
         </li>
       </a> 
     </mat-card>
