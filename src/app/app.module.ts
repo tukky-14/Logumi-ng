@@ -13,7 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { ListComponent } from './list/list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 import { DetailComponent } from './detail/detail.component';
 import { ChatComponent } from './chat/chat.component';
 
@@ -32,6 +33,7 @@ import { ChatComponent } from './chat/chat.component';
   imports: [
     BrowserModule,
     MatCardModule,
+    MatButtonModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase), // Firebaseで追加
