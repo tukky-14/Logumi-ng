@@ -3,19 +3,30 @@
 </div>
 <div class="chat">
   <div class="message">
-    <div class="message__box">
-      <div class="message__box__text">
-        こんにちは。<br>
-        ダミーテキストです。
+    <ng-container *ngFor="let comment of comments">
+      <div class="message__box">
+        <div class="message__box__text">
+          {{comment.content}}
+        </div>
+        <ul class="message__box__info">
+          <li>{{comment.name}}</li>
+          <li>Date: 2020.9.18</li>
+        </ul>
       </div>
-      <ul class="message__box__info">
-        <li>eiji</li>
-        <li>2020.9.18</li>
-      </ul>
-    </div>
+    </ng-container>
+      <div class="message__box">
+        <div class="message__box__text">
+          {{content}}
+        </div>
+        <ul class="message__box__info">
+          <li>eiji</li>
+          <li>2020.9.18</li>
+        </ul>
+      </div>
 
-  <div class="send">
-    <textarea cols="20" rows="3" class="send__text" placeholder="テキストを入力してください。"></textarea>
+  <form class="send">
+    <textarea [(ngModel)]="content" name="comment" cols="20" rows="3" class="send__text"></textarea>
+    <!-- <input [(ngModel)]="content"> -->
     <button class="send__btn" mat-raised-button color="primary">送信</button>
-  </div>
+  </form>
 </div>
