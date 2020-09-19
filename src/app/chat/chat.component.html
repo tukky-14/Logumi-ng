@@ -9,24 +9,14 @@
           {{comment.content}}
         </div>
         <ul class="message__box__info">
-          <li>{{comment.name}}</li>
+          <li>{{comment.user.name}}</li>
           <li>Date: 2020.9.18</li>
         </ul>
       </div>
     </ng-container>
-      <div class="message__box">
-        <div class="message__box__text">
-          {{content}}
-        </div>
-        <ul class="message__box__info">
-          <li>eiji</li>
-          <li>2020.9.18</li>
-        </ul>
-      </div>
 
-  <form class="send">
+  <form class="send" (submit)="addComment(content)">
     <textarea [(ngModel)]="content" name="comment" cols="20" rows="3" class="send__text"></textarea>
-    <!-- <input [(ngModel)]="content"> -->
-    <button class="send__btn" mat-raised-button color="primary">送信</button>
+    <button class="send__btn" mat-raised-button color="primary" type="submit">送信</button>
   </form>
 </div>
