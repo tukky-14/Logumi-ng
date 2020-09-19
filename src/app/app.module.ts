@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { DetailComponent } from './detail/detail.component';
+import { ChatDatePipe } from './pipe/chat-date.pipe';
 
 @NgModule({
   // そのモジュールの中で宣言されているディレクティブ（コンポーネント）とパイプを登録する
@@ -29,7 +30,8 @@ import { DetailComponent } from './detail/detail.component';
     AboutComponent,
     ListComponent,
     DetailComponent,
-    ChatComponent
+    ChatComponent,
+    ChatDatePipe
   ],
   // 自分のモジュールに別のモジュールを取り込む
   imports: [

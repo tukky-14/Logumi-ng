@@ -1,3 +1,5 @@
+import * as moment from 'moment';
+
 export class User { // Userの定義を追加
   uid: number;
   name: string;
@@ -11,9 +13,11 @@ export class User { // Userの定義を追加
 export class Comment { // Commentの定義を変更
   user: User;
   content: string;
+  date: number;
 
   constructor(user: User, content: string) {
     this.user = user;
     this.content = content;
+    this.date = +moment();
   }
 }
