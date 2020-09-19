@@ -14,6 +14,15 @@
         </ul>
       </div>
     </ng-container>
+      <div class="message__box">
+        <div class="message__box__text">
+          {{(item | async)?.content}}
+        </div>
+        <ul class="message__box__info">
+          <li>{{(item | async)?.user.name}}</li>
+          <!-- <li>Date: {{comment.date | chatDate}}</li> -->
+        </ul>
+      </div>
 
   <form class="send" (submit)="addComment(content)">
     <textarea [(ngModel)]="content" name="comment" cols="20" rows="3" class="send__text"></textarea>
