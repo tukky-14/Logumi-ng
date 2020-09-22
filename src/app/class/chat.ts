@@ -8,6 +8,10 @@ export class User { // Userの定義を追加
     this.uid = uid;
     this.name = name;
   }
+
+  deserialize() { // 追加
+    return Object.assign({}, this);
+  }
 }
 
 export class Comment { // Commentの定義を変更
@@ -19,5 +23,16 @@ export class Comment { // Commentの定義を変更
     this.user = user;
     this.content = content;
     this.date = +moment();
+  }
+
+  deserialize() { // 追加
+    this.user = this.user.deserialize();
+    return Object.assign({}, this);
+  }
+
+  // 追加時点の日付を反映
+  setData(date: number): Comment { // 追加
+    this.date = date;
+    return this;
   }
 }

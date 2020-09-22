@@ -3,7 +3,7 @@
 </div>
 <div class="chat">
   <div class="message">
-    <ng-container *ngFor="let comment of comments">
+    <ng-container *ngFor="let comment of comments | async">
       <div class="message__box">
         <div class="message__box__text">
           {{comment.content}}
@@ -14,17 +14,9 @@
         </ul>
       </div>
     </ng-container>
-      <div class="message__box">
-        <div class="message__box__text">
-          {{(item | async)?.content}}
-        </div>
-        <ul class="message__box__info">
-          <li>{{(item | async)?.user.name}}</li>
-          <!-- <li>Date: {{comment.date | chatDate}}</li> -->
-        </ul>
-      </div>
+  </div>
 
-  <form class="send" (submit)="addComment(content)">
+  <form class="send" (submit)="addComment($event, content)">
     <textarea [(ngModel)]="content" name="comment" cols="20" rows="3" class="send__text"></textarea>
     <button class="send__btn" mat-raised-button color="primary" type="submit">送信</button>
   </form>
