@@ -1,6 +1,10 @@
 # Logumi(Angular)
-- Heroku URL
+- Heroku URL  
   https://logumi-ng.herokuapp.com/
+
+- Firebase URL  
+  https://logumi-ng.firebaseapp.com/  
+  （チャット画面あり）
 
 # バージョン
 - macOS：10.15.6

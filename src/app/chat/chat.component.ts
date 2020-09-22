@@ -5,8 +5,9 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable } from 'rxjs'; 
 import { map } from 'rxjs/operators';
 
-const CURRENT_USER: User = new User(1, 'Tanaka Jiro'); // 自分のUser情報を追加
-const ANOTHER_USER: User = new User(2, 'Suzuki Taro'); // 相手のUser情報を追加
+const CURRENT_USER: User = new User(1, 'No name'); // 自分のUser情報を追加
+// const CURRENT_USER: User = new User(1, 'Tanaka Jiro'); // 自分のUser情報を追加
+// const ANOTHER_USER: User = new User(2, 'Suzuki Taro'); // 相手のUser情報を追加
 
 @Component({
   selector: 'app-chat',
@@ -21,7 +22,7 @@ export class ChatComponent implements OnInit {
 
   // DI（依存性注入する機能を指定）
   constructor(private db: AngularFirestore) {
-    this.comments = db // 更新
+    this.comments = db
       .collection<Comment>('comments', ref => {
         return ref.orderBy('date', 'asc');
       })
